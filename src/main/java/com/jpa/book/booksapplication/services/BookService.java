@@ -1,15 +1,15 @@
-package com.jpa.book.services;
-import java.util.ArrayList;
+package com.jpa.book.booksapplication.services;
+
 import java.util.List;
-import java.util.stream.Collectors;
+//import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+//import org.springframework.web.bind.annotation.PostMapping;
+//import org.springframework.web.bind.annotation.RequestBody;
 
-import com.jpa.book.dao.BookRepository;
-import com.jpa.book.entity.Book;
+import com.jpa.book.booksapplication.dao.BookRepository;
+import com.jpa.book.booksapplication.entity.Book;
 
 @Service
 public class BookService {
